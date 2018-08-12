@@ -44,7 +44,7 @@ main() {
     update_login_items
 }
 
-DOTFILES_REPO=~/personal/dotfiles
+DOTFILES_REPO=~/Code/dotfiles
 
 function ask_for_sudo() {
     info "Prompting for sudo password..."
@@ -142,8 +142,8 @@ function change_shell_to_fish() {
 }
 
 function configure_git() {
-    username="Sajjad Hosseini"
-    email="sajjad.hosseini@futurice.com"
+    username="wechain"
+    email="anybucket@outlook.com"
 
     info "Configuring git..."
     if git config --global user.name "$username" && \
@@ -160,7 +160,7 @@ function clone_dotfiles_repo() {
         substep "${DOTFILES_REPO} already exists."
         pull_latest $DOTFILES_REPO
     else
-        url=https://github.com/Sajjadhosn/dotfiles.git
+        url=https://github.com/casteem/dotfiles.git
         if git clone "$url" $DOTFILES_REPO; then
             success "Cloned into ${DOTFILES_REPO}"
         else
@@ -350,7 +350,7 @@ function update_login_items() {
     login_item /Applications/HighSierraMediaKeyEnabler.app
     login_item /Applications/Spectacle.app
     login_item /Applications/NordVPN.app
-    login_item /Applications/1Password\ 6.app
+    login_item /Applications/1Password\ 76.app
     success "Login items successfully updated."
 }
 

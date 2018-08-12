@@ -93,7 +93,7 @@ cask "font-fira-mono-for-powerline" # for iTerm2 powerline
 cask "gimp"
 # can be removed if media keys started working like they should again
 cask "highsierramediakeyenabler"
-cask "microsoft-office"
+#cask "microsoft-office"
 cask "nordvpn"
 cask "postico"
 cask "postman"

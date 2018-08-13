@@ -64,6 +64,7 @@ brew "mas"
 brew "trash"
 brew "tree"
 brew "z"
+brew "macvim", args: ["with-override-system-vim"]
 
 ##################### cask #####################
 cask_args appdir: "/Applications"
@@ -74,6 +75,7 @@ tap "homebrew/cask-versions"
 
 cask "alfred"
 cask "postman"
+cask "sublime-text"
 cask "appcleaner", args: { appdir: "/Applications" }
 cask "atom", args: { appdir: "/Applications" }
 cask "cakebrew", args: { appdir: "/Applications" }

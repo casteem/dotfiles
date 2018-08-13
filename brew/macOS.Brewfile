@@ -12,7 +12,7 @@ brew "extract_url" # for urlview tmux plugin
 brew "fish"
 brew "gifsicle" # for gif_compress fish function
 brew "python"
-brew "python@2"
+#brew "python@2"
 brew "mariadb", restart_service: :changed
 brew "node"
 brew "p7zip"
@@ -40,11 +40,11 @@ brew 'ctop'
 brew 'wget'
 brew 'nmap'
 brew 'ssh-copy-id'
-brew 'nvm'
+#brew 'nvm'
 brew 'ruby'
 # brew 'rbenv'
 # brew 'ruby-build'
-brew 'pyenv'
+#brew 'pyenv'
 brew 'yarn'
 brew 'fzf'
 brew 'gifsicle'
